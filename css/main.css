@@ -3,7 +3,7 @@ h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, sma
 }
 
 p, .lead {
-	font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .lead {
@@ -76,7 +76,7 @@ header {
   background: url(../img/header-bg.jpg) no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
   background-size: cover;
   -webkit-background-size: cover;
@@ -88,26 +88,12 @@ header img {
 }
 
 .header-info {
-  position: absolute;
-  bottom: 0;
   width: 100%;
-  left: 0;
-  right: 0;
-  margin-left: 0px;
-  margin-bottom: 12%;
+  margin-top: 8%;
 }
 
 @media (max-width: 480px) {
   .btn-lg {
-    font-size: 12.5px;
-    line-height: 1.33;
-    padding: 16px 13px;
-    letter-spacing: 0px;
-  }
-
-
-  .btn-wide {
-    width: 100%;
     font-size: 12.5px;
     line-height: 1.33;
     padding: 16px 13px;
